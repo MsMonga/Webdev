@@ -1,0 +1,21 @@
+.custom-text-selection {
+    background-color: green;
+    color: white;            
+}.custom-text-selection {
+    background-color: green;
+    color: white;             
+}
+.styled-text {
+    opacity: 0.5;             
+    position: relative;       
+}
+.styled-text::first-letter {
+    font-size: 2em;          
+    font-weight: bold;       
+    color: orange;          
+}
+
+.styled-text::first-line {
+    color: blue;            
+    font-style: italic;     
+}
